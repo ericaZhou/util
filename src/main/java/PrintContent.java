@@ -32,6 +32,7 @@ public class PrintContent {
         	fw = new FileWriter("d://test.txt",true);
 			for(String s : pc.getResults()){
 				s+="\r\n";
+	          //  String c = "abs"+"\r\n";
 	            fw.write(s);
 			}
 			fw.close();
