@@ -27,12 +27,17 @@ public class FindString {
 		//fs.getIgnoreType().add("sh");
 		fs.getIgnoreType().add("sql");
 		fs.getIgnoreType().add("rb");
-		fs.getIgnoreType().add("xml");
-
+		//fs.getIgnoreType().add("xml");
+		fs.getIgnoreType().add("swp");
+		fs.getIgnoreType().add("so");
+		fs.getIgnoreType().add("zip");
+		fs.getIgnorePath().add(".git");	
+		fs.getIgnoreType().add("properties");	
+		fs.getIgnoreType().add("sh");	
 		fs.getIgnorePath().add("test");	
 		fs.getIgnoreType().add("develop");
 		//fs.getIgnoreType().add("properties");
-		fs.traverse(f, 0, "removeAclRuleSyn");
+		fs.traverse(f, 0, "javax.xml.ws");
 		//monitor.command.uri.suffix
 	}
 
