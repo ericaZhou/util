@@ -7,3 +7,7 @@ dist
 .cache
 .classpath
 .class
+.settings
+.iml
+.stackdump
+.project
